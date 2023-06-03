@@ -78,7 +78,7 @@ function showComment() {
     showdate.textContent = date;
     
     //avatarAnswer.setAttribute("src", avatar);
-    avatarAnswer.textContent = showRandomAvatar();
+    //avatarAnswer.textContent = showRandomAvatar();
     
     let commentAnswer = document.querySelector('.commentanswer');
     commentAnswer.textContent = checkSpam();
